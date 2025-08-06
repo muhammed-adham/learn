@@ -51,6 +51,7 @@ const CustomizableTeacherLMS = () => {
     // Template Customizer Visibility
     const [showCustomizer, setShowCustomizer] = useState(false);
     const [activeCustomizerTab, setActiveCustomizerTab] = useState('templates'); // 'templates' or 'colors'
+    
 
     // Color Customization State
     const [colorScheme, setColorScheme] = useState({

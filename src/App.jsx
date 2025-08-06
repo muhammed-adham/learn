@@ -1,10 +1,14 @@
-import CustomizableTeacherLMS from "./pages/CustomizableTeacherLMS"
-import TeacherPersonalLMS from "./pages/TeacherPersonalLMS"
+import Layout from "./components/Layout"
+import AssignmentPage from "./components/pages/AssigmentPage"
+import CustomizableTeacherLMS from "./components/pages/CustomizableTeacherLMS"
+import TeacherPersonalLMS from "./components/pages/TeacherPersonalLMS"
 
 const App = () => {
   return (
     <>
-    <CustomizableTeacherLMS/>
+    <Layout/>
+    {/* <AssignmentPage/> */}
+    {/* <CustomizableTeacherLMS/> */}
     {/* <TeacherPersonalLMS/> */}
     </>
   )
